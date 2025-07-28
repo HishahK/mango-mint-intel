@@ -235,7 +235,7 @@ def export_to_pdf(content, filename="summary.pdf"):
 
 def send_email_notification(summary, recipient_email, recipient_name="User"):
    try:
-       api_token = "mlsn.17ccb2c69d1ea2b08b19957f702c335d718553ddd44e077f8f457f9a0e1d775e"
+       os.getenv("MAILERSEND_API_TOKEN")
        
        email_data = {
            "from": {
