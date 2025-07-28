@@ -1,0 +1,10 @@
+streamlit
+openai
+langchain
+langchain-openai
+langchain-community
+chromadb
+python-dotenv
+schedule
+reportlab
+requests
